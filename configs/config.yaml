@@ -3,8 +3,8 @@ env_id: SafetyPointGoal1-v0   # 会被 --env_id 覆盖
 seed: 1
 
 # 训练长度
-steps_per_epoch: 30000
-epochs: 200
+steps_per_epoch: 20000
+epochs: 500
 
 # PPO 基本超参
 lr: 0.0003
@@ -17,6 +17,6 @@ batch_size: 4096
 
 # Safety Modulation 超参
 d: 25.0
-b: 3.0
+b: 4.0
 eta: 2.0
 e_max: 50
